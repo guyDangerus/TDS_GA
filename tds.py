@@ -5,7 +5,7 @@ def largest(a,b,c):
   l.append(a)
   l.append(b)
   l.append(c)
-  return max(l)
+  return round(max(l), 4)
 
 st.title("Largest in three numbers")
 
